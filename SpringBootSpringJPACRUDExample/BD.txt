@@ -1,0 +1,29 @@
+create database data;
+
+CREATE TABLE `data`.`article` ( 
+
+`id` int (11) AUTO_INCREMENT, 
+
+`title` varchar (150) DEFAULT NULL, 
+
+`category` varchar (500) DEFAULT NULL, 
+
+PRIMARY KEY (`id`)
+
+);
+
+CREATE TABLE `data`.`producto` ( 
+
+`id` int (11) AUTO_INCREMENT, 
+
+`nombre_producto` varchar (150) DEFAULT NULL, 
+
+`categora_producto` varchar (500) DEFAULT NULL, 
+
+`stock_producto` int DEFAULT NULL, 
+
+`precio_producto` int DEFAULT NULL, 
+
+PRIMARY KEY (`id`)
+
+);
